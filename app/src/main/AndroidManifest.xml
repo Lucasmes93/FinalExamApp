@@ -10,7 +10,6 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.FinalExamApp">
 
-        <!-- Activité principale -->
         <activity android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
@@ -18,12 +17,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
-        <!-- Activité pour les utilisateurs -->
         <activity android:name=".UserActivity" />
-
-        <!-- Activité pour les paramètres -->
         <activity android:name=".SettingsActivity" />
-
     </application>
 </manifest>

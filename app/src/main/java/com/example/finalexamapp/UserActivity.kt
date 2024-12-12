@@ -16,12 +16,12 @@ class UserActivity : AppCompatActivity() {
 
         // Liste fictive d'utilisateurs
         val users = listOf(
-            User(id = 1, name = "Utilisateur 1"),
-            User(id = 2, name = "Utilisateur 2"),
-            User(id = 3, name = "Utilisateur 3")
+            User(id = 1, name = "Utilisateur A"),
+            User(id = 2, name = "Utilisateur B"),
+            User(id = 3, name = "Utilisateur C")
         )
 
-        // Lier l'adaptateur à la RecyclerView
+        // Utiliser UserAdapter pour afficher les utilisateurs
         recyclerView.adapter = UserAdapter(users)
     }
 }
