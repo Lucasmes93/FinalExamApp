@@ -4,7 +4,7 @@
     <selectionStates>
       <SelectionState runConfigName="app">
         <option name="selectionMode" value="DROPDOWN" />
-        <DropdownSelection timestamp="2024-12-12T10:03:05.145251600Z">
+        <DropdownSelection timestamp="2024-12-12T11:12:36.083035400Z">
           <Target type="DEFAULT_BOOT">
             <handle>
               <DeviceId pluginId="LocalEmulator" identifier="path=C:\Users\MESSIA\.android\avd\FinalExamApp.avd" />
